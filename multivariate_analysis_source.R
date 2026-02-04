@@ -4,7 +4,7 @@ PCA <- function(input_matrix, scale=FALSE, center=FALSE){
   INPUT_NROW     <- nrow(input_matrix) # sample size
   INPUT_NCOL     <- ncol(input_matrix) # No of variables
   if (is.null(input_rownames)) input_rownames <- paste("#", 1:INPUT_NROW, sep="")  
-  input_matrix   <- subset(input_matrix, complete.cases(input_matrix)) # remove cases with NAs
+  #input_matrix   <- subset(input_matrix, complete.cases(input_matrix)) # remove cases with NAs
 
   if (is.null(colnames(input_matrix))) {
     colnames(input_matrix) <- paste("X", 1:INPUT_NCOL, sep="")
