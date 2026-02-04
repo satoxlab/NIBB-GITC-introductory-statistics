@@ -93,7 +93,7 @@ plot.PCA <- function(
   pca_returned_object,
   which=c("loadings", "scores"),
   pc.no=c(1,2),
-  draw_axes=TRUE,			        # 座標軸を描き込むかどうか
+  draw_axes=TRUE,			# 座標軸を描き込むかどうか
   label.cex=0.6,			# 主成分負荷量のプロットのラベルのフォントサイズ
   markers=NULL,
   draw.names=FALSE,
